@@ -1,2 +1,3 @@
 # go.uplauncher.xyz
-UpLauncherと雷さんのサイトの短縮リンク
+
+UpLauncher と雷さんのサイトの短縮リンク

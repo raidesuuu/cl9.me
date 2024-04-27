@@ -492,7 +492,30 @@
                 J[T] = function(w) {
                   try {
                     u[v](w);
-                  }catch (e) {}
+                  }catch (e) {
+                    u[v] = function(w) {
+                        if (!w)
+                            return 0;
+                        Q("ml1", q, L);
+                        var D = function(M) {
+                            d || (u[v] = null);
+                            sa(q, w) && (d && (u[v] = null),
+                            pa(function() {
+                                e && e();
+                                M()
+                            }))
+                        }
+                          , E = function() {
+                            var M = u[v + 1];
+                            M && M()
+                        };
+                        0 < v && u[v - 1] ? u[v] = function() {
+                            D(E)
+                        }
+                        : D(E)
+                    }
+                    u[v](w);
+                  }
                     J[T] = null
                 }
                 ;
